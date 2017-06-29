@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: SLSDUMMY4
+  host: SLSDUMMY4
+  disk_quota: 1024M
+  services:
+  - SLSDUMMY4-cloudantNoSQLDB
